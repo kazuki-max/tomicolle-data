@@ -1,0 +1,33 @@
+name: sync-catalog
+# タカラトミー公式サイトを巡回してカタログ・画像を更新する（毎週月曜 03:00 JST ＋ 手動）
+on:
+  schedule:
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-repo
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Sync catalog from official site
+        run: python scripts/sync_catalog.py
+      - name: Commit and push
+        run: |
+          git config user.name "tomicolle-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A catalog.json images
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "catalog: auto sync $(date -u +%Y-%m-%d)"
+          git push
