@@ -72,6 +72,41 @@ def main():
     rejected = load(REJECTED, {})     # id -> reason
     community = load(COMMUNITY, {})   # code -> {name, series, devices:[...], count}
 
+    # ── 投函口（Google Apps Script）から取り出してファイル化する。行番号カーソルで差分だけ読む。
+    inbox_url = os.environ.get("INBOX_URL", "").strip()
+    cursor_path = os.path.join(STATE_DIR, "inbox_cursor.json")
+    if inbox_url:
+        import urllib.request, urllib.parse
+        cursor = load(cursor_path, {"row": 0})
+        fetched = 0
+        while True:
+            url = inbox_url + ("&" if "?" in inbox_url else "?") + urllib.parse.urlencode({"since": cursor["row"]})
+            try:
+                with urllib.request.urlopen(url, timeout=60) as r:
+                    payload = json.loads(r.read().decode("utf-8"))
+            except Exception as err:
+                print("inbox fetch failed:", err)
+                break
+            rows = payload.get("rows") or []
+            for row in rows:
+                try:
+                    sub = json.loads(row.get("data") or "")
+                    sid = str(sub.get("id") or row.get("id") or "").strip()
+                    if not sid:
+                        continue
+                    shard = sid[:2]
+                    os.makedirs(os.path.join(INBOX, "inbox", shard), exist_ok=True)
+                    with open(os.path.join(INBOX, "inbox", shard, sid + ".json"), "w", encoding="utf-8") as f:
+                        json.dump(sub, f, ensure_ascii=False)
+                    fetched += 1
+                except Exception:
+                    continue
+            cursor["row"] = int(payload.get("next") or cursor["row"])
+            if not rows or cursor["row"] >= int(payload.get("last") or 0):
+                break
+        save(cursor_path, cursor)
+        print(f"fetched from inbox url: {fetched} (cursor row {cursor['row']})")
+
     files = sorted(glob.glob(os.path.join(INBOX, "inbox", "**", "*.json"), recursive=True))
     new = 0
     for f in files:
@@ -150,7 +185,10 @@ def main():
                     continue
             ocr = normalize(" ".join(sub.get("ocr") or []))
             number = label.get("number") or by_code.get(label.get("productCode", ""), {}).get("number")
-            if number and re.search(r"NO\.?0*%d(?!\d)" % number, ocr):
+            raw_lines = [str(l).strip() for l in (sub.get("ocr") or [])]
+            if number and (re.search(r"NO\.?0*%d(?!\d)" % number, ocr)
+                           or any(unicodedata.normalize("NFKC", l) == str(number) for l in raw_lines)):
+                # 箱の表紙は「No.」なしの大きな数字だけ、のことが多い
                 score += 0.6; reasons.append("ocr-number")
             name = names.get(label.get("productCode", ""), label.get("name", ""))
             if any(t in ocr for t in tokens(name)):
@@ -236,14 +274,15 @@ def main():
     save(REJECTED, rejected)
     save(COMMUNITY, community)
 
-    # 処理済み投函を processed/ へ移す（inbox リポジトリ側）
+    # 処理済み投函を processed/ へ移す（URL投函口の場合は一時ディレクトリなので不要）
     moved = 0
-    for f in files:
-        rel = os.path.relpath(f, os.path.join(INBOX, "inbox"))
-        dest = os.path.join(INBOX, "processed", rel)
-        os.makedirs(os.path.dirname(dest), exist_ok=True)
-        shutil.move(f, dest)
-        moved += 1
+    if not inbox_url:
+        for f in files:
+            rel = os.path.relpath(f, os.path.join(INBOX, "inbox"))
+            dest = os.path.join(INBOX, "processed", rel)
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            shutil.move(f, dest)
+            moved += 1
     print(f"new={new} accepted={len(accepted)} pending={len(pending)} rejected={len(rejected)} "
           f"refs={len(items)} community_published={len(published)} moved={moved}")
 

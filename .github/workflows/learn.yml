@@ -1,6 +1,7 @@
 name: learn-from-users
 # ユーザー端末から投函された学習データを検証し、references.json とみんなの登録を更新する
 # （毎日 04:00 JST ＋ 手動）。写真は一切扱わない（特徴ベクトルと読み取り文字のみ）。
+# 投函口は Google Apps Script の Web アプリ（リポジトリ変数 INBOX_URL）。秘密情報は不要。
 on:
   schedule:
     - cron: "0 19 * * *"
@@ -18,18 +19,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Checkout inbox
-        uses: actions/checkout@v4
-        with:
-          repository: kazuki-max/tomicolle-inbox
-          token: ${{ secrets.INBOX_TOKEN }}
-          path: inbox
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install pillow
       - name: Validate submissions and build references
-        run: python scripts/learn.py inbox
+        env:
+          INBOX_URL: ${{ vars.INBOX_URL }}
+        run: |
+          mkdir -p inbox
+          python scripts/learn.py inbox
       - name: Merge community items into catalog
         run: python scripts/sync_catalog.py --merge-only
       - name: Commit data repo
@@ -39,15 +38,5 @@ jobs:
           git add -A references.json learning catalog.json
           if ! git diff --cached --quiet; then
             git commit -m "learn: $(date -u +%Y-%m-%d)"
-            git push
-          fi
-      - name: Commit inbox (mark processed)
-        working-directory: inbox
-        run: |
-          git config user.name "tomicolle-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "processed $(date -u +%Y-%m-%d)"
             git push
           fi

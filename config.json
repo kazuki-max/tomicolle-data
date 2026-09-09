@@ -1,6 +1,5 @@
 {
-  "inboxRepo": "kazuki-max/tomicolle-inbox",
-  "inboxToken": "",
+  "inboxURL": "",
   "learningEnabled": true,
   "minBuild": 7
 }
