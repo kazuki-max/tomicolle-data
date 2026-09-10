@@ -1,4 +1,6 @@
 {
 "test-probe-0001": "probe (setup test)",
-"test-probe-0002": "probe (setup test)"
+"test-probe-0002": "probe (setup test)",
+"402a2ede-9203-400a-8c39-d3148d5be334": "device quota",
+"df7298f2-bd1f-43dd-b43b-dbb2e18dc161": "device quota"
 }
