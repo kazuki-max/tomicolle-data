@@ -1,7 +1,7 @@
 {
- "version": "20261003.7ed1450f",
- "generatedAt": "2026-10-03T21:56:33+00:00",
- "count": 1148,
+ "version": "20261004.b91e809e",
+ "generatedAt": "2026-10-04T21:04:36+00:00",
+ "count": 1150,
  "items": [
   {
    "number": 1,
@@ -767,7 +767,7 @@
    "isCurrent": true,
    "replaces": "4904810917311",
    "imageURL": "images/4904810092445.jpg",
-   "status": "upcoming"
+   "status": "current"
   },
   {
    "number": 30,
@@ -779,10 +779,12 @@
    "source": "seed",
    "releaseDate": "2024年10月",
    "firstSeen": "2410",
-   "isCurrent": true,
+   "isCurrent": false,
    "replaces": "4904810193852",
    "imageURL": "images/4904810917311.jpg",
-   "status": "current"
+   "status": "discontinued",
+   "discontinuedDate": "2026年10月",
+   "replacedBy": "4904810092445"
   },
   {
    "number": 31,
@@ -884,7 +886,7 @@
    "isCurrent": true,
    "replaces": "4904810917342",
    "imageURL": "images/4904810950936.jpg",
-   "status": "upcoming"
+   "status": "current"
   },
   {
    "number": 34,
@@ -896,10 +898,12 @@
    "source": "seed",
    "releaseDate": "2024年10月",
    "firstSeen": "2410",
-   "isCurrent": true,
+   "isCurrent": false,
    "replaces": "4904810193883",
    "imageURL": "images/4904810917342.jpg",
-   "status": "current"
+   "status": "discontinued",
+   "discontinuedDate": "2026年10月",
+   "replacedBy": "4904810950936"
   },
   {
    "productCode": "4904810193883",
@@ -8770,6 +8774,18 @@
    "status": "current"
   },
   {
+   "productCode": "4904810097815",
+   "source": "official",
+   "name": "トミカプレミアムＲａｃｉｎｇ カストロール トムス スープラ 36号車",
+   "series": "トミカプレミアムＲａｃｉｎｇ",
+   "action": "左右ドア開閉",
+   "releaseDate": "2026年11月",
+   "firstSeen": "2611",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810097815.jpg"
+  },
+  {
    "productCode": "4904810223221",
    "source": "official",
    "name": "トミカプレミアムＲａｃｉｎｇ カストロール・ニスモ GT-R",
@@ -13039,6 +13055,18 @@
    "isCurrent": true,
    "imageURL": "images/4904810186274.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810074168",
+   "source": "official",
+   "name": "寿司トミカ 上寿司セット",
+   "series": "タカラトミーモールオリジナル",
+   "action": "サスペンション ※寿司下駄はトミカ用です。食品用には使用しないでください。",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810074168.jpg"
   },
   {
    "productCode": "4904810995807",
