@@ -1,7 +1,7 @@
 {
- "version": "20261010.b91e809e",
- "generatedAt": "2026-10-10T22:08:10+00:00",
- "count": 1150,
+ "version": "20261011.f6485cfe",
+ "generatedAt": "2026-10-11T21:41:29+00:00",
+ "count": 1166,
  "items": [
   {
    "number": 1,
@@ -782,9 +782,9 @@
    "isCurrent": false,
    "replaces": "4904810193852",
    "imageURL": "images/4904810917311.jpg",
-   "status": "discontinued",
    "discontinuedDate": "2026年10月",
-   "replacedBy": "4904810092445"
+   "replacedBy": "4904810092445",
+   "status": "discontinued"
   },
   {
    "number": 31,
@@ -901,9 +901,9 @@
    "isCurrent": false,
    "replaces": "4904810193883",
    "imageURL": "images/4904810917342.jpg",
-   "status": "discontinued",
    "discontinuedDate": "2026年10月",
-   "replacedBy": "4904810950936"
+   "replacedBy": "4904810950936",
+   "status": "discontinued"
   },
   {
    "productCode": "4904810193883",
@@ -1536,6 +1536,20 @@
    "isCurrent": true,
    "imageURL": "images/4904810156710.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810092162",
+   "source": "official",
+   "name": "三菱 デリカD:5",
+   "number": 58,
+   "series": "レギュラー",
+   "action": "サスペンション",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "upcoming",
+   "replaces": "4904810156710",
+   "imageURL": "images/4904810092162.jpg"
   },
   {
    "number": 59,
@@ -2292,6 +2306,20 @@
    "discontinuedDate": "2024年2月",
    "replacedBy": "4904810229261",
    "status": "discontinued"
+  },
+  {
+   "productCode": "4904810092179",
+   "source": "official",
+   "name": "日産 フェアレディZ",
+   "number": 88,
+   "series": "レギュラー",
+   "action": "サスペンション",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "upcoming",
+   "replaces": "4904810229261",
+   "imageURL": "images/4904810092179.jpg"
   },
   {
    "number": 88,
@@ -3360,6 +3388,20 @@
    "status": "current"
   },
   {
+   "productCode": "4904810092001",
+   "source": "official",
+   "name": "ホンダ スーパーカブ＆リヤカー屋台",
+   "number": 135,
+   "series": "ロングタイプ",
+   "action": "屋台連結切り離し/屋台・調理台付け替え",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "upcoming",
+   "replaces": "4904810189404",
+   "imageURL": "images/4904810092001.jpg"
+  },
+  {
    "productCode": "4904810798316",
    "source": "official",
    "name": "ミシュラン モータースポーツトランスポーター",
@@ -4211,6 +4253,18 @@
    "status": "current"
   },
   {
+   "productCode": "4904810072058",
+   "source": "official",
+   "name": "35 マツダ RX-8",
+   "series": "トミカプレミアム",
+   "action": "左右ドア開閉",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810072058.jpg"
+  },
+  {
    "productCode": "4904810936411",
    "source": "official",
    "name": "36 トヨタ GR スープラ",
@@ -4686,6 +4740,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810073994",
+   "source": "official",
+   "name": "tomica GARAGE Smart PREMIUM BLACK Standard Edition",
+   "series": "ｔｏｍｉｃａ＋",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810073994.jpg"
+  },
+  {
    "productCode": "4904810080817",
    "source": "official",
    "name": "tomica GARAGE Smart STONE GRAY Standard edition",
@@ -4706,6 +4771,42 @@
    "isCurrent": true,
    "imageURL": "images/4904810081609.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810068686",
+   "source": "official",
+   "name": "tomica custom works BL26 SPOON CIVIC FL5 Honda CIVIC TYPE R",
+   "series": "tomica custom works",
+   "action": "・ホイール交換",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810068686.jpg"
+  },
+  {
+   "productCode": "4904810068655",
+   "source": "official",
+   "name": "tomica custom works GN26 NISSAN FAIRLADY Z",
+   "series": "tomica custom works",
+   "action": "・ホイール交換",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810068655.jpg"
+  },
+  {
+   "productCode": "4904810068662",
+   "source": "official",
+   "name": "tomica custom works OR26 NISSAN FAIRLADY Z",
+   "series": "tomica custom works",
+   "action": "・ホイール交換",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810068662.jpg"
   },
   {
    "productCode": "4904810081593",
@@ -4739,6 +4840,18 @@
    "isCurrent": true,
    "imageURL": "images/4904810082002.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810068679",
+   "source": "official",
+   "name": "tomica custom works WH26 SPOON CIVIC FL5 (Demo Car) Honda CIVIC TYPE R",
+   "series": "tomica custom works",
+   "action": "・ホイール交換",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810068679.jpg"
   },
   {
    "productCode": "4904810909101",
@@ -7755,6 +7868,28 @@
    "status": "current"
   },
   {
+   "productCode": "4904810949428",
+   "source": "official",
+   "name": "トミカでくぐろう！ ロングトンネルセット(トミカ付き)",
+   "series": "トミカワールド",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810949428.jpg"
+  },
+  {
+   "productCode": "4904810061311",
+   "source": "official",
+   "name": "トミカでわたろう！ ロング大鉄橋セット(トミカ付き)",
+   "series": "トミカワールド",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810061311.jpg"
+  },
+  {
    "productCode": "4904810223542",
    "source": "official",
    "name": "トミカで巡る！日本の伝統コレクション Vol.7 トヨタ アクア 錦鯉デザイン仕様",
@@ -8782,8 +8917,8 @@
    "releaseDate": "2026年11月",
    "firstSeen": "2611",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810097815.jpg"
+   "imageURL": "images/4904810097815.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810223221",
@@ -9522,6 +9657,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810990697",
+   "source": "official",
+   "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 爆走兄弟レッツ＆ゴー!! ミニ四駆 バスターソニック",
+   "series": "トミカプレミアムｕｎｌｉｍｉｔｅｄ",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810990697.jpg"
+  },
+  {
    "productCode": "4904810934325",
    "source": "official",
    "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 爆走兄弟レッツ＆ゴー!! ミニ四駆 バンガードソニック",
@@ -9556,6 +9702,17 @@
    "isCurrent": true,
    "imageURL": "images/4904810955412.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810990680",
+   "source": "official",
+   "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 爆走兄弟レッツ＆ゴー!! ミニ四駆 ビートマグナム",
+   "series": "トミカプレミアムｕｎｌｉｍｉｔｅｄ",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810990680.jpg"
   },
   {
    "productCode": "4904810934318",
@@ -12621,6 +12778,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810996675",
+   "source": "official",
+   "name": "パーキングトレイ10",
+   "series": "トミカワールド",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810996675.jpg"
+  },
+  {
    "productCode": "4904810170556",
    "source": "official",
    "name": "フェラーリコレクション",
@@ -13057,6 +13225,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810077862",
+   "source": "official",
+   "name": "寿司トミカ さんりおきゃらくたぁず",
+   "series": "ドリームトミカ",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810077862.jpg"
+  },
+  {
    "productCode": "4904810074168",
    "source": "official",
    "name": "寿司トミカ 上寿司セット",
@@ -13065,8 +13244,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810074168.jpg"
+   "imageURL": "images/4904810074168.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810995807",
@@ -13190,6 +13369,17 @@
    "isCurrent": true,
    "imageURL": "images/4904810948186.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810057956",
+   "source": "official",
+   "name": "福宴トミカ",
+   "series": "トミカその他",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810057956.jpg"
   },
   {
    "productCode": "4904810228875",
