@@ -1,6 +1,6 @@
 {
- "version": "20261017.f6485cfe",
- "generatedAt": "2026-10-17T21:10:36+00:00",
+ "version": "20261018.f6485cfe",
+ "generatedAt": "2026-10-18T20:20:45+00:00",
  "count": 1166,
  "items": [
   {
@@ -1547,9 +1547,9 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "upcoming",
    "replaces": "4904810156710",
-   "imageURL": "images/4904810092162.jpg"
+   "imageURL": "images/4904810092162.jpg",
+   "status": "upcoming"
   },
   {
    "number": 59,
@@ -2317,9 +2317,9 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "upcoming",
    "replaces": "4904810229261",
-   "imageURL": "images/4904810092179.jpg"
+   "imageURL": "images/4904810092179.jpg",
+   "status": "upcoming"
   },
   {
    "number": 88,
@@ -3397,9 +3397,9 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "upcoming",
    "replaces": "4904810189404",
-   "imageURL": "images/4904810092001.jpg"
+   "imageURL": "images/4904810092001.jpg",
+   "status": "upcoming"
   },
   {
    "productCode": "4904810798316",
@@ -4261,8 +4261,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810072058.jpg"
+   "imageURL": "images/4904810072058.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810936411",
@@ -4747,8 +4747,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810073994.jpg"
+   "imageURL": "images/4904810073994.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810080817",
@@ -4781,8 +4781,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810068686.jpg"
+   "imageURL": "images/4904810068686.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810068655",
@@ -4793,8 +4793,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810068655.jpg"
+   "imageURL": "images/4904810068655.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810068662",
@@ -4805,8 +4805,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810068662.jpg"
+   "imageURL": "images/4904810068662.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810081593",
@@ -4850,8 +4850,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810068679.jpg"
+   "imageURL": "images/4904810068679.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810909101",
@@ -7875,8 +7875,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810949428.jpg"
+   "imageURL": "images/4904810949428.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810061311",
@@ -7886,8 +7886,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810061311.jpg"
+   "imageURL": "images/4904810061311.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810223542",
@@ -9664,8 +9664,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810990697.jpg"
+   "imageURL": "images/4904810990697.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810934325",
@@ -9711,8 +9711,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810990680.jpg"
+   "imageURL": "images/4904810990680.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810934318",
@@ -12785,8 +12785,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810996675.jpg"
+   "imageURL": "images/4904810996675.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810170556",
@@ -13232,8 +13232,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810077862.jpg"
+   "imageURL": "images/4904810077862.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810074168",
@@ -13378,8 +13378,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810057956.jpg"
+   "imageURL": "images/4904810057956.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810228875",
