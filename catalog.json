@@ -1,7 +1,7 @@
 {
- "version": "20261031.f6485cfe",
- "generatedAt": "2026-10-31T22:06:21+00:00",
- "count": 1166,
+ "version": "20261101.43ba1dc3",
+ "generatedAt": "2026-11-01T21:52:30+00:00",
+ "count": 1172,
  "items": [
   {
    "number": 1,
@@ -2222,7 +2222,7 @@
    "isCurrent": true,
    "replaces": "4904810971986",
    "imageURL": "images/4904810092421.jpg",
-   "status": "upcoming"
+   "status": "current"
   },
   {
    "number": 85,
@@ -2232,9 +2232,11 @@
    "productCode": "4904810971986",
    "action": "コンテナ積み下ろし",
    "source": "seed",
-   "isCurrent": true,
+   "isCurrent": false,
    "imageURL": "images/4904810971986.jpg",
-   "status": "current"
+   "status": "discontinued",
+   "discontinuedDate": "2026年11月",
+   "replacedBy": "4904810092421"
   },
   {
    "number": 86,
@@ -2996,9 +2998,11 @@
    "source": "seed",
    "releaseDate": "2024年6月",
    "firstSeen": "2406",
-   "isCurrent": true,
+   "isCurrent": false,
    "imageURL": "images/4904810229339.jpg",
-   "status": "current"
+   "status": "discontinued",
+   "discontinuedDate": "2026年11月",
+   "replacedBy": "4904810224082"
   },
   {
    "productCode": "4904810224082",
@@ -3012,7 +3016,7 @@
    "isCurrent": true,
    "replaces": "4904810229339",
    "imageURL": "images/4904810224082.jpg",
-   "status": "upcoming"
+   "status": "current"
   },
   {
    "productCode": "4904810158554",
@@ -4760,6 +4764,28 @@
    "isCurrent": true,
    "imageURL": "images/4904810080817.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810074625",
+   "source": "official",
+   "name": "tomica VIEW コンビニエンスストア セブン-イレブン",
+   "series": "ｔｏｍｉｃａ＋",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810074625.jpg"
+  },
+  {
+   "productCode": "4904810074632",
+   "source": "official",
+   "name": "tomica VIEW 小型駐車場（自動販売機付）",
+   "series": "ｔｏｍｉｃａ＋",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810074632.jpg"
   },
   {
    "productCode": "4904810081609",
@@ -9402,6 +9428,18 @@
    "status": "current"
   },
   {
+   "productCode": "4904810994343",
+   "source": "official",
+   "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ STEERING VIEW 頭文字D FC3S RX-7 （涼介 VS 拓海 仕様）",
+   "series": "トミカプレミアムｕｎｌｉｍｉｔｅｄ",
+   "action": "リトラクタブルライト展開",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810994343.jpg"
+  },
+  {
    "productCode": "4904810957850",
    "source": "official",
    "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ TOKYO MER ER CAR（T01）",
@@ -9806,6 +9844,18 @@
    "isCurrent": true,
    "imageURL": "images/4904810913221.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810991397",
+   "source": "official",
+   "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 頭文字D シルエイティ （RPS13改）（インパクトブルー）",
+   "series": "トミカプレミアムｕｎｌｉｍｉｔｅｄ",
+   "action": "サスペンション/左右ドア開閉",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810991397.jpg"
   },
   {
    "productCode": "4904810994336",
@@ -13236,6 +13286,17 @@
    "status": "current"
   },
   {
+   "productCode": "8000000207686",
+   "source": "official",
+   "name": "寿司トミカ さんりおきゃらくたぁず",
+   "series": "ドリームトミカ",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/8000000207686.jpg"
+  },
+  {
    "productCode": "4904810074168",
    "source": "official",
    "name": "寿司トミカ 上寿司セット",
@@ -13380,6 +13441,17 @@
    "isCurrent": true,
    "imageURL": "images/4904810057956.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "8000000207685",
+   "source": "official",
+   "name": "福宴トミカ",
+   "series": "トミカその他",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/8000000207685.jpg"
   },
   {
    "productCode": "4904810228875",
