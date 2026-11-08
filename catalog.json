@@ -1,6 +1,6 @@
 {
- "version": "20261107.43ba1dc3",
- "generatedAt": "2026-11-07T22:26:57+00:00",
+ "version": "20261108.43ba1dc3",
+ "generatedAt": "2026-11-08T21:52:23+00:00",
  "count": 1172,
  "items": [
   {
@@ -2234,9 +2234,9 @@
    "source": "seed",
    "isCurrent": false,
    "imageURL": "images/4904810971986.jpg",
-   "status": "discontinued",
    "discontinuedDate": "2026年11月",
-   "replacedBy": "4904810092421"
+   "replacedBy": "4904810092421",
+   "status": "discontinued"
   },
   {
    "number": 86,
@@ -3000,9 +3000,9 @@
    "firstSeen": "2406",
    "isCurrent": false,
    "imageURL": "images/4904810229339.jpg",
-   "status": "discontinued",
    "discontinuedDate": "2026年11月",
-   "replacedBy": "4904810224082"
+   "replacedBy": "4904810224082",
+   "status": "discontinued"
   },
   {
    "productCode": "4904810224082",
@@ -4773,8 +4773,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810074625.jpg"
+   "imageURL": "images/4904810074625.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810074632",
@@ -4784,8 +4784,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810074632.jpg"
+   "imageURL": "images/4904810074632.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810081609",
@@ -9436,8 +9436,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810994343.jpg"
+   "imageURL": "images/4904810994343.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810957850",
@@ -9854,8 +9854,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810991397.jpg"
+   "imageURL": "images/4904810991397.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810994336",
@@ -13293,8 +13293,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/8000000207686.jpg"
+   "imageURL": "images/8000000207686.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810074168",
@@ -13450,8 +13450,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/8000000207685.jpg"
+   "imageURL": "images/8000000207685.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810228875",
