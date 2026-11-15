@@ -1,7 +1,7 @@
 {
- "version": "20261114.43ba1dc3",
- "generatedAt": "2026-11-14T22:49:50+00:00",
- "count": 1172,
+ "version": "20261115.ca0378a3",
+ "generatedAt": "2026-11-15T22:39:29+00:00",
+ "count": 1180,
  "items": [
   {
    "number": 1,
@@ -815,6 +815,20 @@
    "replacedBy": "4904810917595",
    "imageURL": "images/4904810173359.jpg",
    "status": "discontinued"
+  },
+  {
+   "productCode": "4904810092247",
+   "source": "official",
+   "name": "三菱 デリカミニ 災害用高度先行車",
+   "number": 31,
+   "series": "レギュラー",
+   "action": "サスペンション",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "upcoming",
+   "replaces": "4904810917595",
+   "imageURL": "images/4904810092247.jpg"
   },
   {
    "number": 32,
@@ -2962,6 +2976,20 @@
    "status": "discontinued"
   },
   {
+   "productCode": "4904810224013",
+   "source": "official",
+   "name": "日産 キックス",
+   "number": 112,
+   "series": "レギュラー",
+   "action": "サスペンション",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "upcoming",
+   "replaces": "4904810917397",
+   "imageURL": "images/4904810224013.jpg"
+  },
+  {
    "number": 112,
    "name": "日野ポンチョ",
    "series": "レギュラー",
@@ -4139,6 +4167,18 @@
    "isCurrent": true,
    "imageURL": "images/4904810930433.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810948490",
+   "source": "official",
+   "name": "25 スバル インプレッサ WRX STI",
+   "series": "トミカプレミアム",
+   "action": "サスペンション、左右ドア開閉",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810948490.jpg"
   },
   {
    "productCode": "4904810936459",
@@ -7604,6 +7644,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810995517",
+   "source": "official",
+   "name": "トミカ ジョブレイバー TJBEX フードブレイバー スシロー アドトラック",
+   "series": "ジョブレイバー",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810995517.jpg"
+  },
+  {
    "productCode": "4904810229100",
    "source": "official",
    "name": "トミカ ジョブレイバー ギガントファイヤブレイバー 消防署アーマーDXセット",
@@ -8887,6 +8938,18 @@
    "status": "current"
   },
   {
+   "productCode": "4904810073635",
+   "source": "official",
+   "name": "トミカプレミアムＲａｃｉｎｇ Deloitte TOM'S GR Supra",
+   "series": "トミカプレミアムＲａｃｉｎｇ",
+   "action": "左右ドア開閉",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810073635.jpg"
+  },
+  {
    "productCode": "4904810097822",
    "source": "official",
    "name": "トミカプレミアムＲａｃｉｎｇ Epson Modulo NSX-GT",
@@ -9614,6 +9677,17 @@
    "status": "current"
   },
   {
+   "productCode": "4904810059103",
+   "source": "official",
+   "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 新世紀GPX サイバーフォーミュラ 2 MODELS Collection",
+   "series": "タカラトミーモールオリジナル",
+   "releaseDate": "2026年12月",
+   "firstSeen": "2612",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810059103.jpg"
+  },
+  {
    "productCode": "4904810948452",
    "source": "official",
    "name": "トミカプレミアムｕｎｌｉｍｉｔｅｄ 新世紀GPXサイバーフォーミュラ ナイトセイバー005（ナイト・シューマッハ）",
@@ -10339,6 +10413,18 @@
    "isCurrent": true,
    "imageURL": "images/4904810097624.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "4904810956587",
+   "source": "official",
+   "name": "トミカＲＥＢＯＲＮ 三菱 コルト ギャランGTO",
+   "series": "トミカＲＥＢＯＲＮ",
+   "action": "サスペンション、左右ドア開閉",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810956587.jpg"
   },
   {
    "productCode": "4904810956563",
@@ -12301,6 +12387,18 @@
    "isCurrent": true,
    "imageURL": "images/8100000000633.jpg",
    "status": "current"
+  },
+  {
+   "productCode": "8000000999999",
+   "source": "official",
+   "name": "ドリームトミカ サンエックスユニバース コレクション",
+   "series": "ドリームトミカ",
+   "action": "サスペンション",
+   "releaseDate": "2027年1月",
+   "firstSeen": "2701",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/8000000999999.jpg"
   },
   {
    "productCode": "8000000207346",
