@@ -1,7 +1,7 @@
 {
- "version": "20261121.ca0378a3",
- "generatedAt": "2026-11-21T23:40:03+00:00",
- "count": 1180,
+ "version": "20261122.57c705db",
+ "generatedAt": "2026-11-22T23:26:44+00:00",
+ "count": 1181,
  "items": [
   {
    "number": 1,
@@ -826,9 +826,9 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "upcoming",
    "replaces": "4904810917595",
-   "imageURL": "images/4904810092247.jpg"
+   "imageURL": "images/4904810092247.jpg",
+   "status": "upcoming"
   },
   {
    "number": 32,
@@ -2985,9 +2985,9 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "upcoming",
    "replaces": "4904810917397",
-   "imageURL": "images/4904810224013.jpg"
+   "imageURL": "images/4904810224013.jpg",
+   "status": "upcoming"
   },
   {
    "number": 112,
@@ -4177,8 +4177,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810948490.jpg"
+   "imageURL": "images/4904810948490.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810936459",
@@ -7170,6 +7170,18 @@
    "status": "current"
   },
   {
+   "productCode": "4904810062486",
+   "source": "official",
+   "name": "トミカ クロスレスキュー クロスレスキュー ドラゴン＆タイガーチーム トミカセット",
+   "series": "クロスレスキュー",
+   "action": "クロスブレイバー： ブーム展開 クロスアーム： アーム展開 クロスラダー： はしご伸縮・上下・旋回",
+   "releaseDate": "2026年11月",
+   "firstSeen": "2611",
+   "isCurrent": true,
+   "status": "current",
+   "imageURL": "images/4904810062486.jpg"
+  },
+  {
    "productCode": "4904810064046",
    "source": "official",
    "name": "トミカ クロスレスキュー クロスレスキュードラゴン＆タイガー DXセット",
@@ -7651,8 +7663,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810995517.jpg"
+   "imageURL": "images/4904810995517.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810229100",
@@ -8946,8 +8958,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810073635.jpg"
+   "imageURL": "images/4904810073635.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810097822",
@@ -9684,8 +9696,8 @@
    "releaseDate": "2026年12月",
    "firstSeen": "2612",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810059103.jpg"
+   "imageURL": "images/4904810059103.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810948452",
@@ -10423,8 +10435,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/4904810956587.jpg"
+   "imageURL": "images/4904810956587.jpg",
+   "status": "current"
   },
   {
    "productCode": "4904810956563",
@@ -12397,8 +12409,8 @@
    "releaseDate": "2027年1月",
    "firstSeen": "2701",
    "isCurrent": true,
-   "status": "current",
-   "imageURL": "images/8000000999999.jpg"
+   "imageURL": "images/8000000999999.jpg",
+   "status": "current"
   },
   {
    "productCode": "8000000207346",
