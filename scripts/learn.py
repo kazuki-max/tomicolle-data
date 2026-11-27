@@ -9,6 +9,8 @@
   +0.6  読み取り文字に「No.<番号>」がある
   +0.4  読み取り文字に車名の特徴的な語がある
   +0.4/+0.25/+0.1  端末での自己診断で正解が1位/3位以内/10位以内
+                   （v1.6 以降の自己診断は、公式画像の参照だけで並べた順位。v1.5 までは自分の登録写真も
+                     含めていたので、登録直後の同じ写真が必ず1位になり、検証として弱かった）
   +0.2  自己診断の距離が近い
   +0.5  他の端末が同じ正解で登録したベクトルと近い（合意）
   -0.6  別の正解で採用済みのベクトルと非常に近い（矛盾）
@@ -227,6 +229,8 @@ def main():
                     "vectors": [[round(x, 4) for x in v] for v in sub["vectors"]],
                     "createdAt": sub.get("createdAt"), "name": label.get("name"),
                     "series": label.get("series"), "isCustom": not label.get("productCode"),
+                    # v1.6 以降：vectors と同じ並びの種類（cutout＝車体の切り抜き / whole / crop80 / crop65）
+                    "prep": sub.get("prep"), "appBuild": sub.get("appBuild"), "source": sub.get("source"),
                 }
                 del pending[sid]
                 changed = True
